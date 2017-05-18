@@ -11,7 +11,9 @@
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAnnotations" value="true" />
+    <option name="collapseInnerClasses" value="true" />
     <option name="inlineParameterNamesForLiteralCallArguments" value="true" />
+    <option name="COLLAPSE_INNER_CLASSES" value="true" />
     <option name="COLLAPSE_ANNOTATIONS" value="true" />
     <option name="INLINE_PARAMETER_NAMES_FOR_LITERAL_CALL_ARGUMENTS" value="true" />
   </component>
