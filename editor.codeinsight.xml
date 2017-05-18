@@ -10,7 +10,13 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
+    <option name="collapseAnnotations" value="true" />
     <option name="inlineParameterNamesForLiteralCallArguments" value="true" />
+    <option name="COLLAPSE_ANNOTATIONS" value="true" />
     <option name="INLINE_PARAMETER_NAMES_FOR_LITERAL_CALL_ARGUMENTS" value="true" />
+  </component>
+  <component name="OCCodeFoldingSettings">
+    <option name="collapseBlockExpressions" value="true" />
+    <option name="COLLAPSE_BLOCK_EXPRESSIONS" value="true" />
   </component>
 </application>
