@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="wuxia_chapter_content_no_title" type="PLAIN_TEXT" />
+      <mapping pattern="wuxia_chapter_content_no_title.txt" type="PLAIN_TEXT" />
       <mapping pattern="wuxia_world_chapter_content_no_title" type="PLAIN_TEXT" />
       <mapping pattern="GL.java" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
