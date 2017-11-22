@@ -2,13 +2,16 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="wuxia_chapter_content_no_title.txt" type="PLAIN_TEXT" />
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
+      <mapping pattern=".env.release" type="PLAIN_TEXT" />
+      <mapping pattern="GL.java" type="PLAIN_TEXT" />
       <mapping pattern="wuxia_world_chapter_content_no_title" type="PLAIN_TEXT" />
       <mapping pattern="wuxia_chapter_content_no_title" type="PLAIN_TEXT" />
-      <mapping pattern="GL.java" type="PLAIN_TEXT" />
+      <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping pattern="colors" type="XML" />
       <mapping pattern="styles" type="XML" />
       <mapping pattern="experience_line_point" type="XML" />
-      <mapping pattern="colors" type="XML" />
     </extensionMap>
   </component>
 </application>
