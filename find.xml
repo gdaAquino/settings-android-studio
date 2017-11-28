@@ -1,13 +1,33 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'app'" />
-    <option name="defaultScopeName" value="Module 'app'" />
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Open Files" />
+    <option name="defaultScopeName" value="Open Files" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
-    <option name="regularExpressions" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Module 'app'" />
+    <option name="SEARCH_SCOPE" value="Open Files" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.mxm</mask>
+      <mask>*.mx</mask>
+      <mask>*.m</mask>
+      <mask>*.</mask>
+      <mask>*.ja</mask>
+      <mask>src/*.java</mask>
+      <mask>src*.java</mask>
+      <mask>sr*.java</mask>
+      <mask>s*.java</mask>
+      <mask>*.java</mask>
+    </recentFileMasks>
   </component>
 </application>
