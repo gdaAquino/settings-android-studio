@@ -1,16 +1,7 @@
 <scheme name="Obsidian" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Inconsolata" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_NAME" value="Roboto Mono" />
   <colors>
     <option name="CARET_COLOR" value="e0e2e4" />
@@ -33,8 +24,8 @@
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="ff4444" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_COLOR" value="ff5252" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -123,7 +114,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="7d8c93" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -136,7 +127,11 @@
         <option name="FOREGROUND" value="e0e2e4" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_CALL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
@@ -147,7 +142,11 @@
         <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
@@ -156,14 +155,19 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ec7600" />
-        <option name="EFFECT_COLOR" value="ff4444" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="EFFECT_COLOR" value="ff5252" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="93c763" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_LABEL">
+      <value>
+        <option name="FOREGROUND" value="a082bd" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -208,14 +212,24 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
     <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="ec7600" />
       </value>
     </option>
-    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
+        <option name="BACKGROUND" value="293134" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e0e2e4" />
@@ -297,25 +311,54 @@
       </value>
     </option>
     <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JAVA_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ffcd22" />
+      </value>
+    </option>
+    <option name="KOTLIN_ABSTRACT_CLASS">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
     <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
-    <option name="KOTLIN_ARROW">
+    <option name="KOTLIN_BACKING_FIELD_VARIABLE">
+      <value />
+    </option>
+    <option name="KOTLIN_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7d8c93" />
+      </value>
+    </option>
+    <option name="KOTLIN_CLASS">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_CONSTRUCTOR">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_DOT">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
+      </value>
+    </option>
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
       </value>
     </option>
-    <option name="KOTLIN_BACKING_FIELD_VARIABLE">
-      <value />
-    </option>
-    <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="a082bd" />
-      </value>
-    </option>
-    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
-      <value />
-    </option>
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
     </option>
     <option name="KOTLIN_ENUM_ENTRY">
       <value>
@@ -327,9 +370,20 @@
         <option name="FOREGROUND" value="e0e2e4" />
       </value>
     </option>
-    <option name="KOTLIN_LABEL">
+    <option name="KOTLIN_INSTANCE_PROPERTY">
       <value>
-        <option name="FOREGROUND" value="a082bd" />
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="KOTLIN_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7d8c93" />
+      </value>
+    </option>
+    <option name="KOTLIN_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
       </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -342,13 +396,78 @@
         <option name="FOREGROUND" value="7d8c93" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="KOTLIN_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ffcd22" />
+      </value>
+    </option>
+    <option name="KOTLIN_OBJECT">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
+    <option name="KOTLIN_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
+      </value>
+    </option>
     <option name="KOTLIN_SAFE_ACCESS">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
       </value>
     </option>
+    <option name="KOTLIN_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="e0e2e4" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="93c763" />
+      </value>
+    </option>
+    <option name="KOTLIN_STRING">
+      <value>
+        <option name="FOREGROUND" value="ec7600" />
+      </value>
+    </option>
     <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
+    </option>
+    <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
+      <value>
+        <option name="FOREGROUND" value="e8e2b7" />
+      </value>
+    </option>
+    <option name="KOTLIN_WRAPPED_INTO_REF">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="aa66cc" />
@@ -396,6 +515,11 @@
         <option name="BACKGROUND" value="616161" />
       </value>
     </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ae8abe" />
+      </value>
+    </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="a082bd" />
@@ -421,6 +545,11 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff8bff" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ae8abe" />
       </value>
     </option>
     <option name="TYPO">
