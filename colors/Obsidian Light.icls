@@ -4,7 +4,7 @@
     <property name="created">2017-12-03T18:20:03</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.0.1.0</property>
-    <property name="modified">2017-12-04T10:02:42</property>
+    <property name="modified">2017-12-04T10:12:00</property>
     <property name="originalScheme">Obsidian copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="12" />
@@ -433,7 +433,7 @@
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
-        <option name="FOREGROUND" value="212121" />
+        <option name="FOREGROUND" value="757575" />
       </value>
     </option>
     <option name="KOTLIN_KEYWORD">
@@ -450,7 +450,7 @@
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="9e9e9e" />
+        <option name="FOREGROUND" value="757575" />
       </value>
     </option>
     <option name="KOTLIN_OBJECT">
@@ -459,7 +459,12 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="212121" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="KOTLIN_PACKAGE_PROPERTY">
       <value>
         <option name="FOREGROUND" value="212121" />
@@ -468,17 +473,7 @@
     </option>
     <option name="KOTLIN_PARENTHESIS">
       <value>
-        <option name="FOREGROUND" value="212121" />
-      </value>
-    </option>
-    <option name="KOTLIN_SAFE_ACCESS">
-      <value>
-        <option name="FOREGROUND" value="212121" />
-      </value>
-    </option>
-    <option name="KOTLIN_SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="212121" />
+        <option name="FOREGROUND" value="757575" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_RECEIVER">
@@ -506,6 +501,12 @@
     </option>
     <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
       <value />
+    </option>
+    <option name="KOTLIN_WRAPPED_INTO_REF">
+      <value>
+        <option name="FOREGROUND" value="212121" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
