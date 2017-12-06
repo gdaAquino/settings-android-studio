@@ -350,6 +350,11 @@
         <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
+    <option name="KOTLIN_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7d8c93" />
+      </value>
+    </option>
     <option name="KOTLIN_DOT">
       <value>
         <option name="FOREGROUND" value="e0e2e4" />
